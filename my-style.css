@@ -1,0 +1,128 @@
+body{
+    background-image:url("bgblur.png");
+    background-color:#262328;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    font-family: 'Montserrat Alternates', sans-serif; 
+}
+h1{
+   font-family: 'Montserrat Alternates', sans-serif; 
+   color:#DDFFFC;
+}
+#mybox{
+    padding: 5%;
+    margin-top: 5%;
+    background-color:#5E2B5B;
+    border-radius:2%;
+    margin-bottom:5%;
+    box-shadow: 10px 10px 8px 10px #00000040;
+}
+#rightcol{
+    float:left;
+    width:25%;
+    padding-left:2%;
+    padding-right:2%;
+    margin-left:10%;
+    background-color:#36173ABA;
+    margin-top:2%;
+    border-radius:2%;
+    padding-top:0.5%;
+    box-shadow: 10px 10px 8px 10px #00000040;
+}
+#leftcol{
+    float:left;
+    width:45%;
+    padding-left:2%;
+    padding-right:2%;
+    background-color:#36173ABA;
+    margin-left:5%;
+    margin-top:2%;
+    border-radius:2%;
+    padding-top:0%;
+    box-shadow: 10px 10px 8px 10px #00000040;
+}
+#midcol{
+    width:50%;
+    background-color:#36173ABA;
+    border-radius:2%;
+    margin:auto;
+    margin-top:5%;
+    padding:2%;
+}
+@media screen and (max-width: 600px){
+    #leftcol, #rightcol, #midcol{
+        width: 95%;
+        margin:auto;
+        padding:10px;
+        margin-top:5%;
+    }
+}
+@media screen and (max-width: 600px){
+    #headerandstuff{
+        width:100%;
+        margin-bottom:10px;
+        padding-right:3.75%;
+    }
+}
+@media screen and (max-width: 600px){
+    #navbar a{
+        float: none;
+        width: 90%;
+    }
+}
+#bigrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#headerandstuff{
+    padding-top:30px;
+    padding-bottom:30px;
+    background-image:url("vwave.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+    margin:-8px;
+    margin-right:-8px;
+}
+#navbar div{
+    overflow:none;
+    display:block;
+    margin-left:-8px;
+    margin-right:-8px;
+    background-color:#141147;
+
+    
+}
+#navbar a{
+    float: left;
+    overflow:none;
+    display:block;
+    padding-top:16px;
+    padding-bottom:15px;
+    color:#f2f2f2;
+    background-color:#141147;
+    text-align:center;
+    text-decoration:none;
+    color:white;
+    padding-right:5%;
+    padding-left:5%;
+    
+}
+#navbar a:hover{
+    color:grey;
+    background-color:black;
+}
+
+#footing{
+    padding:10px;
+    text-align:center;
+    margin-top:20px;
+    background-color:#36173A;
+    border-radius:3%;
+    box-shadow: 10px 10px 8px 10px #00000040;
+}
+
