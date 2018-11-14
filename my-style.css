@@ -116,7 +116,18 @@ h1{
     color:grey;
     background-color:black;
 }
-
+#normallink a{
+    color:#99ffcc !important;
+    text-decoration:none;
+}
+#normallink a:hover{
+    color:#ff99cc!important;
+    text-decoration:none;
+}
+#normallink a:visited{
+    color:#00b3b3!important;
+    text-decoration:none;
+}
 #footing{
     padding:10px;
     text-align:center;
