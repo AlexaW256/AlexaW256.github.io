@@ -119,8 +119,12 @@ h1{
     color:grey;
     background-color:black;
 }
-#normallink a{
-    color:#99ffcc !important;
+#normallink a:link:{
+    color:#99ffcc!important;
+    text-decoration:none;
+}
+#normallink a:{
+    color:#99ffcc!important;
     text-decoration:none;
 }
 #normallink a:hover{
